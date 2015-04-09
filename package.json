@@ -1,0 +1,36 @@
+{
+  "name": "agentia-change-case",
+  "version": "0.0.0",
+  "description": "Case conversion utilities used by Agentia modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp lint && gulp spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgentiaSystems/agentia-change-case.git"
+  },
+  "keywords": [
+    "agentia",
+    "tools",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Johnny Estilles <johnny.estilles@agentia.asia> (http://www.agentia.asia)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgentiaSystems/agentia-change-case/issues"
+  },
+  "homepage": "https://github.com/AgentiaSystems/agentia-change-case",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "eslint": "^0.18.0",
+    "eslint-plugin-mocha": "^0.2.2",
+    "gulp": "^3.8.11",
+    "gulp-eslint": "^0.8.0",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-mocha": "^2.0.1",
+    "istanbul": "^0.3.13",
+    "mocha": "^2.2.1"
+  }
+}
