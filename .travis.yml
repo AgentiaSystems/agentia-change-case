@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - "0.10"
+  - "0.12"
+
+notifications:
+  email:
+    - "johnny.estilles@agentia.asia"
+
+addons:
+  code_climate:
+    repo_token: 5f2ed33819f17aa62b63b4c47269b87bef52f0f39f9abfe4595cb1d50830e0a1
+
+before_script:
+  - npm install -g gulp
+  - npm install -g codeclimate-test-reporter
+
+after_script:
+  - gulp coverage
+  - codeclimate < ./coverage/lcov.info
